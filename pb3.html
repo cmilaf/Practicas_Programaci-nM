@@ -8,16 +8,22 @@
 </head>
 <body class="bg-white">
 
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-md navbar-dark bg-primary px-3 px-lg-5">
     <a class="navbar-brand fs-6" href="#">Bootstrap</a>
-    <ul class="navbar-nav ms-auto align-items-center text-center" style="font-size: 0.85rem;">
-      <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-      <li class="nav-item"><a class="nav-link text-white-50" href="#">Link</a></li>
-      <li class="nav-item"><a class="nav-link dropdown-toggle text-white-50" href="#">Dropdown</a></li>
-      <li class="nav-item"><a class="nav-link disabled text-white-50" href="#">Disabled</a></li>
-      <li class="nav-item ms-lg-4 ms-2"><span class="text-white fw-bold">+5555 55555</span></li>
-    </ul>
+    
+    <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center text-center mt-3 mt-md-0" style="font-size: 0.85rem;">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white-50" href="#">Link</a></li>
+        <li class="nav-item"><a class="nav-link dropdown-toggle text-white-50" href="#">Dropdown</a></li>
+        <li class="nav-item"><a class="nav-link disabled text-white-50" href="#">Disabled</a></li>
+        <li class="nav-item ms-md-4 mt-2 mt-md-0 pb-2 pb-md-0"><span class="text-white fw-bold">+5555 55555</span></li>
+      </ul>
+    </div>
   </nav>
 
   <!-- Carrusel -->
@@ -30,7 +36,7 @@
     
     <div class="carousel-inner">
       <div class="carousel-item active" style="height: 400px;">
-        <img src="1.jpg" class="d-block w-100 h-100" alt="Slide 1" style="object-fit: cover;">
+        <img src="./1.jpg" class="d-block w-100 h-100" alt="Slide 1" style="object-fit: cover;">
         <div class="carousel-caption">
           <h5 class="fw-bold mb-3 fs-5">Título Uno</h5>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero magnam, vitae nulla laudantium consequuntur dignissimos qui, quod explicabo atque a facere totam? Temporibus ab quam suscipit nemo, ex labore totam.</p>
@@ -38,7 +44,7 @@
       </div>
 
       <div class="carousel-item" style="height: 400px;">
-        <img src="2.jpg" class="d-block w-100 h-100" alt="Slide 2" style="object-fit: cover;">
+        <img src="./2.jpg" class="d-block w-100 h-100" alt="Slide 2" style="object-fit: cover;">
         <div class="carousel-caption">
           <h5 class="fw-bold mb-3 fs-5">Título Dos</h5>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea pariatur ut voluptatem illo facilis architecto distinctio explicabo ipsa natus! Dolore quam tenetur minus rerum optio accusantium libero ducimus sed? Nobis.</p>
@@ -46,7 +52,7 @@
       </div>
 
       <div class="carousel-item" style="height: 400px;">
-        <img src="3.jpg" class="d-block w-100 h-100" alt="Slide 3" style="object-fit: cover;">
+        <img src="./3.jpg" class="d-block w-100 h-100" alt="Slide 3" style="object-fit: cover;">
         <div class="carousel-caption">
           <h5 class="fw-bold mb-3 fs-5">Título Tres</h5>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quasi assumenda eos nihil nobis hic deleniti voluptates ex ab tempore, nemo suscipit neque enim, ipsa vero, sequi molestiae quisquam quos?.</p>
@@ -76,7 +82,7 @@
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
       <div class="col">
         <div class="card h-100 rounded-0 border-light-subtle shadow-sm">
-          <img src="1.jpg" class="card-img-top rounded-0 bg-secondary" alt="Card 1" style="height: 160px; object-fit: cover;">
+          <img src="./1.jpg" class="card-img-top rounded-0 bg-secondary" alt="Card 1" style="height: 160px; object-fit: cover;">
           <div class="card-body">
             <h6 class="card-title fw-bold mb-3">Card title</h6>
             <p class="card-text text-dark mb-4" style="font-size: 0.85rem;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -86,7 +92,7 @@
       </div>
       <div class="col">
         <div class="card h-100 rounded-0 border-light-subtle shadow-sm">
-          <img src="2.jpg" class="card-img-top rounded-0 bg-secondary" alt="Card 2" style="height: 160px; object-fit: cover;">
+          <img src="./2.jpg" class="card-img-top rounded-0 bg-secondary" alt="Card 2" style="height: 160px; object-fit: cover;">
           <div class="card-body">
             <h6 class="card-title fw-bold mb-3">Card title</h6>
             <p class="card-text text-dark mb-4" style="font-size: 0.85rem;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -96,7 +102,7 @@
       </div>
       <div class="col">
         <div class="card h-100 rounded-0 border-light-subtle shadow-sm">
-          <img src="3.jpg" class="card-img-top rounded-0 bg-secondary" alt="Card 3" style="height: 160px; object-fit: cover;">
+          <img src="./3.jpg" class="card-img-top rounded-0 bg-secondary" alt="Card 3" style="height: 160px; object-fit: cover;">
           <div class="card-body">
             <h6 class="card-title fw-bold mb-3">Card title</h6>
             <p class="card-text text-dark mb-4" style="font-size: 0.85rem;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -109,6 +115,7 @@
 
   <hr class="mt-5 mb-0 opacity-10">
 
+  <!-- Jumbotron -->
   <div class="bg-light pb-5 pt-4">
     <div class="container px-4 px-lg-5">
       <h1 class="display-5 fw-normal text-dark mb-3">Hello, world!</h1>
@@ -128,7 +135,6 @@
 
   <div class="container mb-5 pb-5 px-4 px-lg-5">
     <div class="row g-4">
-      
       <div class="col-md-6">
         <div class="accordion rounded-0 border shadow-sm" id="accordionExample">
           
@@ -139,7 +145,9 @@
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show border border-light-subtle border-top-0" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-white text-dark p-4" style="font-size: 0.85rem; line-height: 1.6;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima soluta dolor doloribus veniam vel amet, quam aliquam, alias quos, quas a nemo ratione. Reprehenderit atque harum, hic velit enim nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum reprehenderit, minus in quas dolore modi soluta delectus corporis eius ipsam consequuntur natus. Consequatur quibusdam, possimus neque earum delectus esse nihil!</div>
+              <div class="accordion-body bg-white text-dark p-4" style="font-size: 0.85rem; line-height: 1.6;">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
             </div>
           </div>
           
@@ -155,7 +163,7 @@
               </div>
             </div>
           </div>
-          
+
           <div class="accordion-item rounded-0 border-0">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed bg-info text-white fw-bold rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 0.9rem;">
@@ -174,7 +182,7 @@
 
       <div class="col-md-6">
         <div class="border rounded-0 shadow-sm">
-          <img src="1.jpg" class="img-fluid w-100 bg-secondary" alt="Imagen secundaria" style="height: 180px; object-fit: cover;">
+          <img src="./1.jpg" class="img-fluid w-100 bg-secondary" alt="Imagen secundaria" style="height: 180px; object-fit: cover;">
           <ul class="list-group list-group-flush rounded-0">
             <li class="list-group-item bg-info text-white px-4 py-3" style="font-size: 0.9rem;">Cras justo odio</li>
             <li class="list-group-item px-4 py-3 text-dark" style="font-size: 0.9rem;">Dapibus ac facilisis in</li>
